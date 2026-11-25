@@ -24,11 +24,23 @@ This hands-on IAM lab demonstrates identity lifecycle management using a persona
 - Added the user to SG-HR-Employees.
 - Verified that the previous group membership was removed.
 
-## Phase 3 – Leaver (Pending)
-- Disable the user account.
-- Revoke active sessions.
-- Remove security group memberships.
-- Verify account status and document results.
+## Phase 3 – Leaver (Completed)
+- Simulated an HR-authorized employee termination.
+- Disabled the user account in Microsoft Entra ID.
+- Successfully revoked sign-in sessions.
+- Removed membership from SG-HR-Employees.
+- Verified that no group memberships remained.
+- Confirmed that the account status was Disabled.
+- Reviewed Microsoft Entra audit logs to validate
+  successful deprovisioning activities.
+
+## Audit and Compliance Verification
+- Verified successful account disablement.
+- Verified session revocation.
+- Verified security group membership removal.
+- Reviewed timestamps and success statuses in audit logs.
+- Retained the disabled account for auditing purposes.
+
 
 ## Security Concepts
 - Identity lifecycle management (JML)
@@ -38,7 +50,7 @@ This hands-on IAM lab demonstrates identity lifecycle management using a persona
 - Identity governance
 
 ## Project Status
-In Progress
+Completed
 
 ## Certification
 CompTIA Security+ (SY0-701)
