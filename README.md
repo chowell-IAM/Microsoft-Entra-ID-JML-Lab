@@ -54,3 +54,21 @@ Completed
 
 ## Certification
 CompTIA Security+ (SY0-701)
+
+## Lab Evidence and Screenshots
+
+### Account Disablement
+Verified that the terminated user's account was disabled.
+
+![Disabled Account](Disabled.png)
+
+### Security Group Membership Removal
+Verified that the user had no remaining group memberships.
+
+![Group Membership Removal](Removed%20group%20membership.png)
+
+### Audit Log Verification
+Reviewed successful account disablement, session revocation, and group membership removal activities.
+
+![Audit Logs](Audit%20logs.png)
+
